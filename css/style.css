@@ -58,7 +58,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 0%;
     text-align: left;
     text-decoration: none;
 }
@@ -91,8 +90,7 @@
     font-size: 72px;
     font-weight: 400;
     line-height: 72px;
-    letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     margin-bottom: 26px;
 }
 
@@ -257,4 +255,44 @@
 .footer_list {
     display: flex;
     gap: 40px;
+}
+
+.contacts_container {
+    padding: 20px 0;
+}
+
+.contacts_title {
+    color: rgb(228, 228, 228);
+    font-family: "Nico Moji";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.contacts_content {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.contacts_nickname {
+    color: rgb(228, 228, 228);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contacts_link {
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
 }
