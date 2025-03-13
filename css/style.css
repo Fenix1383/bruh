@@ -67,6 +67,12 @@
     border: none;
 }
 
+.burger_button {
+    background: transparent;
+    border: none;
+    display: none;
+}
+
 .hero-block {
     background: rgb(103, 38, 38);
 }
@@ -295,4 +301,34 @@
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+@media (max-width:1000px){
+    .container {
+        max-width: 630px;
+    }
+
+    .header_nav, 
+    .logout_button {
+        display: none;
+    }
+    .burger_button {
+        display: block;
+    }
+    .hero-block_container {
+        justify-content: space-between;
+    }
+    .hero-block_img {
+        width: 295px;
+    }
+    .hero-block_content {
+        margin-left: 0;
+    }
+    .features_content {
+        flex-direction: column-reverse;
+    }
+    .gallery_item {
+        margin-bottom: 20px;
+        width: 48%;
+    }
 }
